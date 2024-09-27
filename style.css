@@ -70,6 +70,12 @@ body{
         color: #fff;
         border: 0;
         border-radius: 4px;
+        cursor: pointer;
+        transition: 0.3s;
+        }
+
+        button:hover{
+            background-color: rgba(6, 72, 214, 0.829);;
         }
 
         .todo_list{
@@ -95,3 +101,7 @@ body{
         text-decoration: none;
         padding-left: 25px;
         }
+
+    a:hover{
+        text-decoration: underline;
+    }
