@@ -75,6 +75,9 @@ body{
         .todo_list{
             margin: 0 20px;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
 
         li{
@@ -82,7 +85,7 @@ body{
         list-style: none;
         color: #fff;
         margin-bottom: 5px;
-    }
+        }
 
     a{
         width: 100%;
